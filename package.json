@@ -1,5 +1,5 @@
 {
-	"name": "counterstake-bridge-discord",
+	"name": "counterstake-watchdog-discord",
 	"version": "0.1.0",
 	"dependencies": {
 		"counterstake-bridge": "git+https://github.com/byteball/counterstake-bridge.git",
