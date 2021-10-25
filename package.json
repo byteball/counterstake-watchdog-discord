@@ -1,6 +1,7 @@
 {
 	"name": "counterstake-watchdog-discord",
 	"version": "0.1.0",
+	"license": "MIT",
 	"dependencies": {
 		"counterstake-bridge": "git+https://github.com/byteball/counterstake-bridge.git",
 		"discord.js": "^12.2.0"
