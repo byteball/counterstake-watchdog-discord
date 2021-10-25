@@ -1,0 +1,11 @@
+{
+	"name": "counterstake-bridge-discord",
+	"version": "0.1.0",
+	"dependencies": {
+		"counterstake-bridge": "git+https://github.com/byteball/counterstake-bridge.git",
+		"discord.js": "^12.2.0"
+	},
+	"resolutions": {
+		"level-rocksdb": "^4.0.0"
+	}
+}
