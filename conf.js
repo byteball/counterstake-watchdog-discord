@@ -3,9 +3,14 @@
 exports = require('counterstake-bridge/conf.js'); // read bridge conf
 
 exports.infura_project_id = ''; // in conf.json
+exports.admin_email = '';
+exports.from_email = '';
 
 exports.discord_token = '';
 exports.discord_channels = [''];
+exports.bClaimForOthers = false;
+
+exports.socksHost = null;
 
 exports.explorerURLs = {
 	'Obyte' : `https://${process.env.testnet ? 'testnet' : ''}explorer.obyte.org/#`,

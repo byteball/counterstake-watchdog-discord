@@ -113,6 +113,8 @@ function getExplorerURL(network, type, arg) {
 		case "Obyte":
 			return `${conf.explorerURLs[network]}${arg}`;
 		case "Ethereum":
+		case "BSC":
+		case "Polygon":
 			return `${conf.explorerURLs[network]}${type}/${arg}`;
 	}
 }
