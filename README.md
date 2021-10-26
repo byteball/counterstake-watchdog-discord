@@ -1,13 +1,13 @@
 # counterstake-watchdog-discord
  Discord bot for counterstake-bridge events
 
-Watch the [Obyte counterstake bridges](https://counterstake.org) and post notifications on Discord when fraudulent claim or challenge happens.
+Watch the [Obyte counterstake bridges](https://counterstake.org) and post notifications on Discord when fraudulent claims or challenges happen.
 
 ## Setup
 
 - `yarn`
-- Run with `node start.js`, it will create an app data directory in `$APPDATA/counterstake-watchdog-discord` then fail due to configuration missing.
-- Configure the bot: edit `$APPDATA/counterstake-watchdog-discord/conf.json` or `./conf.js` and add required fields:
+- Run with `node start.js`, it will create an app data directory in `~/.config/counterstake-watchdog-discord` then fail due to configuration missing.
+- Configure the bot: edit `~/.config/counterstake-watchdog-discord/conf.json` or `./conf.js` and add required fields:
 	- `admin_email`
 	- `from_email`
 	- `infura_project_id`
