@@ -9,6 +9,7 @@ exports.from_email = '';
 exports.discord_token = '';
 exports.discord_channels = [''];
 exports.bClaimForOthers = false;
+exports.bAttack = false;
 
 exports.socksHost = null;
 
