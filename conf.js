@@ -20,6 +20,8 @@ exports.explorerURLs = {
 	'Polygon': `https://${process.env.testnet ? 'mumbai.' : ''}polygonscan.com/`
 };
 
+exports.webPort = null;
+
 module.exports = exports;
 
 console.log('finished conf');
