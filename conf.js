@@ -17,7 +17,8 @@ exports.explorerURLs = {
 	'Obyte' : `https://${process.env.testnet ? 'testnet' : ''}explorer.obyte.org/#`,
 	'Ethereum': `https://${process.env.testnet ? 'rinkeby.' : ''}etherscan.io/`,
 	'BSC': `https://${process.env.testnet ? 'testnet.' : ''}bscscan.com/`,
-	'Polygon': `https://${process.env.testnet ? 'mumbai.' : ''}polygonscan.com/`
+	'Polygon': `https://${process.env.testnet ? 'mumbai.' : ''}polygonscan.com/`,
+	'Kava': `https://${process.env.testnet ? 'testnet.' : ''}kavascan.com/`,
 };
 
 exports.webPort = null;

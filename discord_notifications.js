@@ -115,6 +115,7 @@ function getExplorerURL(network, type, arg) {
 		case "Ethereum":
 		case "BSC":
 		case "Polygon":
+		case "Kava":
 			return `${conf.explorerURLs[network]}${type}/${arg}`;
 	}
 }
